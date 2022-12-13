@@ -52,7 +52,7 @@ class ShapeMapia(QgsProcessingAlgorithm):
 
         return self.tr(
             """
-            Shapemapia is a python script that helps you extract shapes from wikimapia.com an import it into QGIS.
+            Shapemapia is a python script that helps you extract shapes from wikimapia.com and import it into QGIS.
             """)
 
     def initAlgorithm(self, config=None):
